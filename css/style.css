@@ -227,6 +227,25 @@ a:hover {
   transition: all 500ms ease;
 }
 
+.socials .ico-circle-beginning {
+  height: 40px;
+  width: 40px;
+  font-size: 1.7rem;
+  border-radius: 50%;
+  line-height: 1.4;
+  margin: 0 15px 0 0;
+  color: white;
+  box-shadow: 0 0 0 3px #0078ff;
+  transition: all 500ms ease;
+}
+
+.socials .ico-circle-beginning:hover {
+  background-color: #0078ff;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
+
 /*------/ Ul resect /------*/
 
 .ul-resect,
@@ -253,6 +272,18 @@ a:hover {
 /*------/ Ico Circle /------*/
 
 .ico-circle {
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+  display: block;
+}
+
+.ico-circle-beginning {
   height: 100px;
   width: 100px;
   font-size: 2rem;
@@ -1270,3 +1301,19 @@ footer .credits a {
     bottom: 15px;
   }
 }
+
+/*======================================
+//--//-->   View CV Button 
+======================================*/
+.CVButton {
+  margin-left: 4cm;
+  padding: .9rem 2.3rem;
+  font-size: 1.2rem;
+  box-shadow: #4e4e4e;
+  border-radius: 10rem;
+  background-color: #0062d3;
+  color: #fff;
+  transition: all 500ms ease;
+  outline: 0;
+}
+
